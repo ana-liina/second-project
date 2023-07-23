@@ -20,5 +20,5 @@ git commit -m "..."
 ## Передача на удаленный сервер 
 
 ```
-git push
+git push -u origin master
 ```
