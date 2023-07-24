@@ -61,3 +61,13 @@ modified + git add = staged.
 1. Информативными
 2. Легко читаемыми
 3. все сообщения оформлены в одном стиле
+
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
