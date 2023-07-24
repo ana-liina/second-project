@@ -54,6 +54,8 @@ modified - изменённый
 
 Файл может быть tracked и staged.
 
+modified + git add = staged.
+
 ## Сообщения к коммитам должны быть:
 
 1. Информативными
